@@ -7,3 +7,7 @@ create pdf
 ```
 sudo pacman -S texlive && pdflatex resume.tex
 ```
+
+```markdown
+![Resume](resume.png)
+```
