@@ -8,4 +8,4 @@ create pdf
 sudo pacman -S texlive && pdflatex resume.tex
 ```
 
-![Resume](resume.png)
+![Resume Preview](resume.png)
