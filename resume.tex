@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Adrian Radores}} \\
+%   \href{https://adi.is-a.dev}{https://adi.is-a.dev} $|$ {\href{mailto:adrianradores@gmail.com}{adrianradores@gmail.com}} $|$ {09761073128}  \\
+% \end{tabular*}
+%
+%
+
+\begin{center}
+    \textbf{\Huge \scshape Adrian Radores} \\ \vspace{1pt}
+    \href{https://adi.is-a.dev}{\underline{adi.is-a.dev}} $|$ \href{mailto:adrianradores@gmail}{\underline{adrianradores@gmail}} $|$ 
+    \href{https://www.linkedin.com/in/adi-is-a-dev}{\underline{linkedin.com/in/adi-is-a-dev}} $|$
+    \href{https://github.com/mobi35}{\underline{github.com/mobi35}}
+\end{center}
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Chanz IT Business Solutions}{Pasig City, Philippines}
+      {Junior Web Developer}{Feb 2022 - Mar 2024}
+      \resumeItemListStart
+        \resumeItem{Contributed to various projects involving diverse tech stacks.}
+        \resumeItem{Contributed to e-commerce website development with multitenancy features for scalable platforms.}
+        \resumeItem{Backend technologies utilized include Laravel, Yii, Codeigniter, and WordPress, while frontend involved Vue, Livewire, vanilla JavaScript, and jQuery.}
+        \resumeItem{Played a key role in optimizing and modernizing legacy systems.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {U+ Realty}{Pasig City, Philippines}
+      {System Administrator, Junior Web Developer}{Aug 2019 - Aug 2022}
+      \resumeItemListStart
+        \resumeItem{Developed and maintained Chinese realty and gaming websites managing listings using
+        Asp.net Core.}
+        \resumeItem{Contributed to the creation of mobile games using C\# and Unity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {St. Agnes Academy of Caloocan City}{Caloocan City, Philippines}
+      {Information Technology Instructor}{Mar 2017 - Mar 2019}
+      \resumeItemListStart
+        \resumeItem{Designed and maintained the school's websites and networking infrastructure using Linux.}
+        \resumeItem{Conducted programming classes (C\#, PHP, CSS, JavaScript, Unity Game Development) for Senior High School
+        students, fostering their skills in web development.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+\section{Work Exposure}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Our Lady of Lourdes School}{Caloocan City, Philippines}
+      {Web Developer}{Jan 2017 - Jul 2017}
+      \resumeItemListStart
+        \resumeItem{Created school's enrollment system as well as accounting system.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+      
+% --------Multiple Positions Heading------------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Caloocan City}{Caloocan, Philippines}
+      {Bachelor of Science in Computer Science}{Mar 2012 - Dec 2017}
+  \resumeSubHeadingListEnd
+
+
+\section{Technical Skills}
+
+ \begin{itemize}[leftmargin=0.15in, label={}]
+
+       \small{\item{
+
+      \textbf{Languages}{: PHP, Typescript, C\#, SQL } \\
+
+      \textbf{Frameworks}{: Laravel, VueJS, Yii, Codeigniter, CraftCMS, WordPress, TailwindCSS} \\
+
+      \textbf{Developer Tools}{: neovim, tmux, Git } \\
+
+      \textbf{Technologies}{: Linux, Docker, PHPUnit, InertiaJS, Livewire, PHP Filament, Backpack Admin Panel } \\
+
+      \textbf{Libraries}{: React, jQuery}
+
+                    }}
+            \end{itemize}
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
